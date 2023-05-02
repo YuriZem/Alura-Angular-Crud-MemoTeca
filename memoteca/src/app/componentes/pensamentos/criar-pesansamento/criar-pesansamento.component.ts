@@ -11,11 +11,17 @@ export class CriarPesansamentoComponent implements OnInit {
     id:'1',
     conteudo:'Aprendeno angular',
     autoria:'dev',
-    modelo:''
+    modelo:'modelo2'
   }
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  criarPensamento(){
+    alert('teste')
+  }
+  cancelar(){
+
+  }
 }
