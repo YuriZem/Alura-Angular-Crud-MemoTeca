@@ -22,6 +22,7 @@ export class CriarPesansamentoComponent implements OnInit {
     alert('teste')
   }
   cancelar(){
+    alert('222')
 
   }
 }

@@ -10,7 +10,7 @@ const routes: Routes = [
     redirectTo:'listarPensamento'
   },
   {
-    path:'CriarPensamento',
+    path:'criarPensamento',
     component:CriarPesansamentoComponent
   },
   {
