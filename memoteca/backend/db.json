@@ -12,7 +12,7 @@
       "conteudo": "Aqui o teste dos testes",
       "autoria": "eu e eu",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
       "conteudo": "test",
       "autoria": "sim",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 7
     },
     {
@@ -53,7 +53,7 @@
       "conteudo": "543534",
       "autoria": "5345",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 11
     },
     {
