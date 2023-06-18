@@ -4,66 +4,77 @@
       "id": 1,
       "conteudo": "Que bom que voce veio",
       "autoria": "euwwww",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Aqui o teste dos testes",
       "autoria": "eu e eu",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "Banana aveia maca churrasco geladeira psina feijao guarda policia predio primavera ",
       "autoria": "maluco",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "sim funcionou",
       "autoria": "é us guri",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 6
     },
     {
       "conteudo": "test",
       "autoria": "sim",
       "modelo": "modelo1",
+      "favorito": true,
       "id": 7
     },
     {
       "conteudo": "vdsakloda",
       "autoria": "5464",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 8
     },
     {
       "conteudo": "543534",
       "autoria": "5345",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 10
     },
     {
       "conteudo": "543534",
       "autoria": "5345",
       "modelo": "modelo1",
+      "favorito": true,
       "id": 11
     },
     {
       "conteudo": "543534",
       "autoria": "5345",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 12
     },
     {
       "conteudo": "543534",
       "autoria": "5345",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 13
     },
     {
       "conteudo": "543534",
       "autoria": "5345",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 14
     }
   ]

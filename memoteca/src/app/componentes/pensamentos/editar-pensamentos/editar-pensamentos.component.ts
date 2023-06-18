@@ -11,7 +11,6 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class EditarPensamentosComponent implements OnInit {
 
-
   formulario!: FormGroup;
 
   constructor(
@@ -34,6 +33,8 @@ export class EditarPensamentosComponent implements OnInit {
         Validators.minLength(3)
       ])],
       modelo: ['modelo1'],
+      favorito: [false]
+
     })
 
     const id = this.route.snapshot.paramMap.get('id');
