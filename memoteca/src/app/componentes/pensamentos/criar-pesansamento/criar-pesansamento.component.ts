@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Pensamento } from '../pensamento';
 import { PensamentoService } from '../pensamento.service';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { minusculoValidator } from './minusculoValidators';
 
 @Component({
   selector: 'app-criar-pesansamento',
@@ -23,11 +23,13 @@ export class CriarPesansamentoComponent implements OnInit {
     this.formulario = this.formBuilder.group({
       conteudo: ['', Validators.compose([
         Validators.required,
-        Validators.pattern(/(.|\s)*\S(.|\s)*/)
+        Validators.pattern(/(.|\s)*\S(.|\s)*/),
       ]) ],
       autoria: ['', Validators.compose([
         Validators.required,
-        Validators.minLength(3)
+        Validators.minLength(3),
+        minusculoValidator
+
       ])],
       modelo: ['modelo1'],
     })
@@ -50,3 +52,5 @@ export class CriarPesansamentoComponent implements OnInit {
     }
   }
 }
+
+// parei na aula 3 video 02
